@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&display=swap');
+
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+
+html, body{
+    height: 100%;
+}
+
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: var(--Pale-blue);
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-card{
+    width: 400px;
+    height: auto;
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px;
+}
+
+.hero-img{
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.title1{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.card p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: rgb(73, 68, 68);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section1 {
+    display: flex;
+    background: rgb(173, 188, 250, 0.1);
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.section1 p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section1 small{
+    font-weight: normal;
+    line-height: 0.5rem;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 25px;
+}
+
+.section1 .change{
+    float: right;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.bottons{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.main-btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 40px;
+    background: #0d34d6;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 98px -25px rgba(0, 0, 0, 1);
+}
